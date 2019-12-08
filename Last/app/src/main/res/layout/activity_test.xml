@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".test">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="147dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:text="Do a test"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="246dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="30dp"
+        android:text="No 0, mild 1, moderate 2, severe 3\nplz calculate your total score"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="395dp"
+        android:layout_height="475dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
+        android:text="1.Do you feel a loss of appetite? Or can't help overeating?\n2.Do you suffer from insomnia? Or feel tired and lethargic all day long?\n3.Have you lost interest in sex?\n4.Do you often worry about your health?\n5.Do you think that life is worthless, or that life is better than death?\n6.Do you always feel sad or sad?\n7.Do you feel the prospect is slim?\n8.Do you feel you are worthless or think you are a loser?\n9.Do you feel powerless or sighing less than others?\n10.Do you blame yourself for everything?\n11.Are you hesitant to make a decision?\n12.Are you hesitant to make a decision?\n13.Are you hesitant to make a decision?\n14,Are you motivated to do things?\n15.Do you think you are aging?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="145dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="16dp"
+        android:text="SEE result"
+        app:layout_constraintStart_toEndOf="@+id/textView19"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="0dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="648dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

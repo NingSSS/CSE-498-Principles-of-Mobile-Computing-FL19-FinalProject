@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".interface_news">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="269dp"
+        android:layout_height="172dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:srcCompat="@drawable/a2"
+        tools:srcCompat="@tools:sample/backgrounds/scenic[10]" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="310dp"
+        android:layout_height="213dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/a1"
+        tools:srcCompat="@tools:sample/backgrounds/scenic[2]" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="315dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="54dp"
+        android:text="Click image to get news"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
